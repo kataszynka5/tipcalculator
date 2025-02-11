@@ -57,6 +57,7 @@ input[type="number"] {
     font-size: 24px;
     font-weight: 700;
     border: transparent;
+    border-radius: 8px;
 }
 
 input[type=number]::-webkit-inner-spin-button {

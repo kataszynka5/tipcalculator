@@ -50,7 +50,7 @@ input[type="radio"]:checked + input[type="number"] {
 input[type="number"] {
     color: hsl(183, 100%, 15%);
     background-color: hsl(189, 41%, 97%);
-    width: 100%;
+    width: 95%;
     text-align: right;
     overflow: hidden;
     font-family:'Space Mono';

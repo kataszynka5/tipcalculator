@@ -241,11 +241,11 @@ p.tip-person {
         font-size: 20px;
     }
 
-    .input-conteiner {
+    .data-conteiner {
         width: 45%;
     }
 
     .result-conteiner {
-        width: 45%;
+        justify-content: space-between;
     }
 }

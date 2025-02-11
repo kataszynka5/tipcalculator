@@ -231,8 +231,21 @@ p.tip-person {
 
 @media (orientation: landscape) {
     .calculator-conteiner {
+        display: flex;
+        flex-direction: row;
         width: 80vw;
-        height: 60vh;
+        height: auto;
     }
     
+    .input-conteiner input[type="number"] {
+        font-size: 20px;
+    }
+
+    .input-conteiner {
+        width: 45%;
+    }
+
+    .result-conteiner {
+        width: 45%;
+    }
 }

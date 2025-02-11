@@ -194,6 +194,7 @@ p.tip-person {
 @media (min-width: 425px) {
     .calculator-conteiner {
         width: 90vw;
+        height: 80vh;
     }
 }
 

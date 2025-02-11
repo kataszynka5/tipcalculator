@@ -228,3 +228,11 @@ p.tip-person {
         width: 60vw;
     }
 }
+
+@media (orientation: landscape) {
+    .calculator-conteiner {
+        width: 80vw;
+        height: 60vh;
+    }
+    
+}

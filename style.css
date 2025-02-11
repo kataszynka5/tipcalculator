@@ -230,6 +230,13 @@ p.tip-person {
 }
 
 @media (orientation: landscape) {
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
     .calculator-conteiner {
         display: flex;
         flex-direction: row;

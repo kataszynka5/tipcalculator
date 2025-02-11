@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="/tip-calculator-app-main/images/favicon-32x32.png">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+    <div class="splitter">
+        <img src="/tip-calculator-app-main/images/logo.svg">
+    </div>
+        <div class="calculator-conteiner">
+            <div class="data-conteiner">
+                <div class="bill-conteiner">
+                    <label for="bill" class="input-label">
+                        <p class="input-title">Bill</p>
+                        <div class="input-conteiner">
+                            <input type="number" class="text-area" name="bill" id="bill" placeholder="0" min="1">
+                            <span class="icon"><img src="/tip-calculator-app-main/images/icon-dollar.svg" alt=""></span>
+                        </div>
+                    </label>
+                </div>
+                <div class="tip-conteiner">
+                    <p>Select Tip %</p>
+                    <div class="percentage-choice" id="percentage-choice">
+                        <label>
+                            <input type="radio" name="percentage" value="5" checked />
+                            <div class="tip-percentage">5%</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="percentage" value="10" />
+                            <div class="tip-percentage">10%</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="percentage" value="15" />
+                            <div class="tip-percentage">15%</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="percentage" value="25" />
+                            <div class="tip-percentage">25%</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="percentage" value="50" />
+                            <div class="tip-percentage">50%</div>
+                        </label>
+                        <input type="number" class="input custom" name="customOption" id="custom-choice" placeholder="Custom" value="">
+                    </div>
+                </div>
+                <div class="people-conteiner">
+                    <label for="people" class="input-label">
+                        <p class="input-title">Number of People</p>
+                        <div class="input-conteiner">
+                            <input type="number" name="people" id="people" placeholder="0" min="1" step="1">
+                            <span class="icon"><img src="/tip-calculator-app-main/images/icon-person.svg" alt="icon person"></span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="result-conteiner">
+                <div class="tip-top">
+                    <div class="tip-amount">
+                        <p class="tip-person">Tip Amount</p>
+                        <p class="person">/ person</p>
+                    </div>
+                    <div class="tip-value">
+                        <span>$</span><span id="result-tip">0.00</span>
+                    </div>
+                </div>
+                <div class="tip-middle">
+                    <div class="total-value">
+                        <div class="total-amount">
+                            <p class="tip-person">Total</p>
+                            <p class="person">/ person</p>
+                        </div>
+                    </div>
+                    <div class="tip-total">
+                        <span>$</span><span id="result-total">0.00</span>
+                    </div>
+                </div>
+                <button  type="reset" id="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
